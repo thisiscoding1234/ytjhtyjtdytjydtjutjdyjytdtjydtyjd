@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="./style.css">
+    <style>
+    .theme-x {
+        --fa-primary-color: rgb(255, 106, 0);
+        --fa-secondary-color: rgb(0, 149, 255);
+    }
+    .title {
+        text-align:center;
+    }
+    .res {
+        margin:40% !important;
+        border:5px dotted lightgrey !important;
+    }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+<body>
+  <div class="head">
+    <h1>
+      Lost Property Message Board
+    </h1>
+  </div>
+    <div class="title">
+    <h3>Welcome, [PLACEHOLDER] </h3>
+        <input placeholder="Message..." type="Text" id="msg" />
+        <button onclick="sendmsg()">Send</button>
+    </div>
+    <div id="res" style="margin-left:20% !important"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
