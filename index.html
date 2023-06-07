@@ -45,8 +45,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no" />
 </head>
 <body> 
-  <div class="container">
-  <div class="accordion accordion-flush" id="accordionExample" >
+  <div class="border d-flex align-items-center justify-content-center" style="height: 350px;">
+<div class="accordion accordion-flush" id="accordionExample">
     <div class="accordion-item">
   <div class="accordion-header">
     <h1>
@@ -62,16 +62,15 @@
           <h4 class="c"> Let's Go!</h4>
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
       <div class="accordion-body" style="background-color: orange;">
-        <input placeholder="Message..." type="Text" id="msg" />
+        <input placeholder="Message..." type="Text" id="msg">
         <button onclick="sendmsg()">Send</button>
               <div id="res" style="margin-left:20% !important"></div>
     </div>
       </div>
     </div>
   </div>
-</div>
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
